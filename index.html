@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+		<title>Potfolio by SoonHyun</title>
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/swiper.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/velocity.js"></script>
+		<script src="js/popup.js"></script>
+		<script src="js/piechart.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="homeBtn">
+				<a href="#" data-slide-index="0"><i class="fa fa-home" aria-hidden="true"></i></a>
+			</div>
+			<div id="navBtn">
+				<a href="#">
+			        <button class="c-hamburger c-hamburger--htx">
+			        	<span></span>
+			        </button>
+				</a>
+			</div>
+			<div class="sideNav">
+				<ul>
+					<li><a href="#" data-slide-index="1"><i class="fa fa-trophy" id="gnbicon" aria-hidden="true"></i><span>주요경력</span></a></li>
+					<li><a href="#" data-slide-index="2"><i class="fa fa-magic" id="gnbicon" aria-hidden="true"></i><span>직무기술</span></a></li>
+					<li><a href="#" data-slide-index="3"><i class="fa fa-child" id="gnbicon" aria-hidden="true"></i><span>자기소개</span></a></li>
+					<li><a href="#" data-slide-index="4"><i class="fa fa-envelope" id="gnbicon" aria-hidden="true"></i><span>문의하기</span></a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" id="content01">
+					<div class="bgOpacity"></div>
+					<div id="navBoard" class="con">
+						<ul>
+							<li id="mainLogo">
+								<img src="images/logo.png">
+							</li>
+							<li id="aboutme">
+								<a href="#" data-slide-index="3">
+									<p>
+										<span>ABOUT ME</span>
+										<span class="menuName">자기소개</span>
+									</p>
+									<i class="fa fa-child" id="gnbicon" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li id="experience">
+								<a href="#" data-slide-index="1">
+									<p>
+										<span>EXPERIENCE</span>
+										<span class="menuName">주요경력</span>
+									</p>
+									<i class="fa fa-trophy" id="gnbicon" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li id="jobskills">
+								<a href="#" data-slide-index="2">
+									<p>
+										<span>JOB SKILLS</span>
+										<span class="menuName">직무기술</span>
+									</p>
+									<i class="fa fa-magic" id="gnbicon" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li id="inquiries">
+								<a href="#" data-slide-index="4">
+									<p>
+										<span>CONTACT ME</span>
+										<span class="menuName">문의하기</span>
+									</p>
+									<i class="fa fa-envelope" id="gnbicon" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="#" class="btn_godown"></a>
+				</div>
+
+				
+				<div class="swiper-slide" id="content02">
+					<h1 class="headTitle">EXPERIENCE</h1>
+					<div class="mainContainer">
+						<div class="title">
+							<h2>주요경력</h2>
+						</div>
+						<ul class="con">
+							<li id="exPlace01" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_01">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg01"></div>
+									<div id="animText">J.ESTINA<br />메인페이지 개편</div>
+									<img src="images/experience_jestinaMain.jpg">
+								</a>
+								<div id="ex_con_01" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>J.ESTINA 메인페이지 개편</h4>
+									<dl>
+										<dt>담당업무</dt><dd>퍼블리싱, PL (1차개편) / 기획, PL (2차개편)</dd>
+										<dt>상세내용</dt><dd>기획전 영역 신설, BEST상품 선정기준 수립 및 UI/UX개선 등 전체 개편</dd>
+										<dt>주요실적</dt><dd>
+										메인페이지 전체 시맨틱 마크업.<br>
+										개편 이전 대비 브라우저별 페이지 로딩속도 평균 1000ms 이상 단축.<br>
+										개편 후 1주간 사용자수 40% 증가, 이탈율 20% 감소, 신규회원 7000명 확보 등.<br></dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potfolioImg_jestinaMain01.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaMain02.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaMain03.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaMain04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+							<li id="exPlace02" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_02">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg02"></div>
+									<div id="animText">J.ESTINA<br />인재채용 사이트 구축</div>
+									<img src="images/experience_jestinaRecruit.jpg">
+								</a>
+								<div id="ex_con_02" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>J.ESTINA 인재채용 사이트 구축</h4>
+									<dl>
+										<dt>담당업무</dt><dd>퍼블리싱, UI/UX기획</dd>
+										<dt>상세내용</dt><dd>J.ESTINA의 인재풀 확보를 위한 인재채용 반응형 웹 사이트 구축</dd>
+										<dt>주요실적</dt><dd>직접 기획한 UI/UX에 애니메이션을 접목하여 취업을 위해 방문한 유저들에게 젊고 세련된 기업 이미지를 제공하였다.</dd>
+										<dt>개발언어</dt><dd>JSP, CSS, JavaScript, jQuery, BootStrap</dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potfolioImg_jestinaRecruit01.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaRecruit02.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaRecruit03.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaRecruit04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+							<li id="exPlace03" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_03">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg03"></div>
+									<div id="animText">J.ESTINA<br />핸드백DIY 컨텐츠 신설</div>
+									<img src="images/experience_jestinaDIY.jpg">
+								</a>
+								<div id="ex_con_03" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>J.ESTINA 핸드백DIY 컨텐츠 신설</h4>
+									<dl>
+										<dt>담당업무</dt><dd>퍼블리싱</dd>
+										<dt>상세내용</dt><dd>Drag&Drop을 이용해 핸드백을 웹에서 직접 만들어볼 수 있는 컨텐츠</dd>
+										<dt>주요실적</dt><dd>관련 페이지 및 모든 UI 직접 구현. 개발을 고려한 설계로 개발 공수 최소화. 핸드백 브랜드만을 위해 제작된 컨텐츠이나 깔끔한 UI 및 쉬운 접근성으로 주얼리 브랜드까지 확대 적용되었다.</dd>
+										<dt>개발언어</dt><dd>HTML5, CSS, JavaScript, jQuery, Ajax</dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potfolioImg_jestinaDIY01.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaDIY02.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaDIY03.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaDIY04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+							<li id="exPlace04" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_04">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg04"></div>
+									<div id="animText">J.ESTINA<br />O2O 매장수령 서비스 신설</div>
+									<img src="images/experience_jestinaO2O.jpg">
+								</a>
+								<div id="ex_con_04" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>J.ESTINA O2O 매장수령 서비스 신설</h4>
+									<dl>
+										<dt>담당업무</dt><dd>퍼블리싱</dd>
+										<dt>상세내용</dt><dd>온라인 구매 상품의 오프라인 매장 수령 관련 컨텐츠 퍼블리싱</dd>
+										<dt>주요실적</dt><dd>오프라인 매장 선택 UI에 구글맵API 연동을 제안, 퍼블리싱하여 명료한 정보를 제공할 수 있게 되었고 후에 오프라인 매장 안내 페이지를 별도로 신설하게 되었다.</dd>
+										<dt>개발언어</dt><dd>HTML5, CSS, JavaScript, jQuery, Google Maps API</dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potfolioImg_jestinaO2O01.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaO2O02.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaO2O03.jpg"></li>
+										<li><img src="images/potfolioImg_jestinaO2O04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+							<li id="exPlace05" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_05">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg05"></div>
+									<div id="animText">TRICKEYE MUSEUM<br />웹사이트 마이그레이션</div>
+									<img src="images/experience_trickeyeMain.jpg">
+								</a>
+								<div id="ex_con_05" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>TRICKEYE MUSEUM 웹사이트 마이그레이션</h4>
+									<dl>
+										<dt>담당업무</dt><dd>퍼블리싱, 개발</dd>
+										<dt>상세내용</dt><dd>자사 웹사이트 퍼블리싱 및 마이그레이션(Java, Spring), 관리자페이지 신규개발</dd>
+										<dt>주요실적</dt><dd>오프라인 위주의 TRICKEYE MUSEUM이 온라인과 접목할 수 있도록 창구 마련</dd>
+										<dt>개발언어</dt><dd>JAVA, Spring, JSP, JSTL, MySQL, Javascript, CSS, Ajax 등</dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potImg_trick01.jpg"></li>
+										<li><img src="images/potImg_trick02.jpg"></li>
+										<li><img src="images/potImg_trick03.jpg"></li>
+										<li><img src="images/potImg_trick04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+							<li id="exPlace06" class="exPlace">
+								<a class="popup-with-zoom-anim experienceImage" href="#ex_con_06">
+									<div id="animCover"></div>
+									<div class="animCover2" id="animCoverBg06"></div>
+									<div id="animText">TRICKEYE MUSEUM<br />온라인 예매시스템 구축</div>
+									<img src="images/experience_trickeyeReserve.jpg">
+								</a>
+								<div id="ex_con_06" class="small-dialog zoom-anim-dialog mfp-hide">
+									<h4>TRICKEYE MUSEUM 온라인 예매시스템 구축</h4>
+									<dl>
+										<dt>담당업무</dt><dd>기획, 디자인, 퍼블리싱, 개발</dd>
+										<dt>상세내용</dt><dd>TRICKEYE MUSEUM 웹사이트에 온라인 예매 기능을 구현. 계약서 작성부터 온라인관련 정책수립, UI설계, 디자인, 결제API연동, 관리자페이지 신설까지 모든 파트 작업</dd>
+										<dt>주요실적</dt><dd>온라인 예매고객 지속적으로 증가. 온라인 마케팅 및 프로모션 기회 제공</dd>
+										<dt>개발언어</dt><dd>JAVA, Spring, JSP, Ajax, JavaScript, CSS, Alipay API 등</dd>
+									</dl>
+									<ul class="potImg">
+										<li><img src="images/potImg_trickTD01.jpg"></li>
+										<li><img src="images/potImg_trickTD02.jpg"></li>
+										<li><img src="images/potImg_trickTD03.jpg"></li>
+										<li><img src="images/potImg_trickTD04.jpg"></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<a href="#" class="btn_godown"></a>
+				</div>
+
+				<div class="swiper-slide" id="content03">
+					<h1 class="headTitle">JOB SKILLS</h1>
+					<div class="mainContainer">
+						<div class="title">
+							<h2>직무기술</h2>
+						</div>
+						<div class="clipboard con">
+
+							<div class="wrap">
+								<h3>FRONT-END</h3>
+								<div class="holder">
+									<div class="animbar cf red" data-percent="95%">
+										<span class="label">HTML</span>
+									</div>
+									<div class="animbar cf red" data-percent="90%">
+										<span class="label">CSS</span>
+									</div>
+									<div class="animbar cf red" data-percent="85%">
+										<span class="label">Javascript</span>
+									</div>
+									<div class="animbar cf red" data-percent="90%">
+										<span class="label">jQuery</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="wrap">
+								<h3>BACK-END</h3>
+								<div class="holder">
+									<div class="animbar cf orange" data-percent="80%">
+										<span class="label">JSP</span>
+									</div>
+									<div class="animbar cf orange" data-percent="65%">
+										<span class="label">JAVA</span>
+									</div>
+									<div class="animbar cf orange" data-percent="70%">
+										<span class="label">Spring</span>
+									</div>
+									<div class="animbar cf orange" data-percent="55%">
+										<span class="label">MySQL</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="wrap">
+								<h3>OTHERS</h3>
+								<div class="holder">
+									<div class="animbar cf purple" data-percent="80%">
+										<span class="label">Adobe</span>
+									</div>
+									<div class="animbar cf purple" data-percent="85%">
+										<span class="label">MS Office</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn_godown"></a>
+				</div>
+
+				<div class="swiper-slide" id="content04">
+					<h1 class="headTitle">ABOUT ME</h1>
+					<div class="mainContainer">
+						<div class="con">
+							<h3>Full Stack Engineer</h3>
+							<h2>홍순현</h2>
+							
+							<dl>
+								<dt>회사</dt>
+								<dd>제이에스티나 2017.09 ~ 현재<br>
+									트릭아이미술관 2015.03 ~ 2017.07</dd>
+							</dl>
+
+							<dl>
+								<dt>자격증</dt>
+								<dd>정보처리산업기사 / 한국산업인력공단 2011.07</dd>
+							</dl>
+
+							<dl>
+								<dt>교육이수</dt>
+								<dd>구글 애널리틱스 실무마스터 과정 / I-BOSS 2019.04 ~ 2019.05<br>
+									웹퍼블리셔 과정 / 그린컴퓨터아카데미 2015.07 ~ 2015.09</dd>					
+							</dl>
+
+							<div class="gallery">
+								<ul class="popup-gallery">
+									<li>
+										<a href="images/gall01.jpg" title="연남동 자취방 - 2016.04">
+											<img src="images/gall01_cover.jpg">
+										</a>
+									</li>
+									<li>
+										<a href="images/gall03.jpg" data-source="" title="연남동 자취방 - 2016.04">
+											<img src="images/gall03_cover.jpg">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn_godown"></a>
+				</div>
+
+				<div class="swiper-slide" id="content05">
+					<h1 class="headTitle">CONTACT ME</h1>
+					<div class="mainContainer">
+						<h2 class="title">문의하기</h2>
+						<div class="con">
+							<div class="address">
+								<ul>
+									<li><i class="fa fa-user-circle-o" aria-hidden="true"></i>홍순현</li>
+									<li><a href="tel:010-6393-5118"><i class="fa fa-phone" aria-hidden="true"></i>010 6393 5118</a></li>
+									<li><a href="mailto:valentine15year@gmail.com"><i class="fa fa-envelope" id="gnbicon" aria-hidden="true"></i>valentine15year@gmail.com</a></li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>서울시 송파구 석촌동</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
